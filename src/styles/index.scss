@@ -1,0 +1,13 @@
+@import "colors";
+
+body {
+  font-family: "Montserrat";
+  color: $main-color;
+  margin: auto;
+  max-width: 1500px;
+  padding: 10px;
+}
+
+main {
+  min-height: 70vh;
+}

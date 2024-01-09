@@ -1,0 +1,45 @@
+@import "colors";
+
+.collapse {
+  font-size: 25px;
+  .collapse-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: $main-color;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-weight: 500;
+    height: 50px;
+  }
+
+  .collapse-text {
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: $second-color;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+.rotate-down {
+  transition: transform 0.5s ease;
+}
+
+.rotate-up {
+  transition: transform 0.5s ease;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 780px) {
+  .collapse {
+    font-size: 18px;
+    .collapse-text {
+      font-size: 15px;
+    }
+  }
+}
