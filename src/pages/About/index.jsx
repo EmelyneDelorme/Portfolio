@@ -1,17 +1,17 @@
-import React, { useEffect } from "react";
-import Banner from "../../components/Banner";
-import Collapse from "../../components/Collapse";
-import img from "../../assets/housing-banner.png";
-import "../../styles/About.scss";
+import React, { useEffect } from "react"
+import Banner from "../../components/Banner"
+import Collapse from "../../components/Collapse"
+// import img from "../../assets/housing-banner.png";
+import "../../styles/About.scss"
 
 function About() {
   useEffect(() => {
-    document.title = "Kasa - A propos";
-  }, []);
+    document.title = "Kasa - A propos"
+  }, [])
 
   return (
     <main>
-      <Banner banner={img} />
+      <Banner />
       <section className="about-collapses">
         <Collapse collapseTitle="Fiabilité">
           <p>
@@ -47,7 +47,7 @@ function About() {
         </Collapse>
       </section>
     </main>
-  );
+  )
 }
 
-export default About;
+export default About

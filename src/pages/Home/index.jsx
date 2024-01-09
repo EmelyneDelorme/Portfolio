@@ -43,14 +43,14 @@ function Home() {
     },
     {
       id: 5,
-      title: "Télécherger le CV (PDF)",
+      title: "Télécharger le CV (PDF)",
       cover: resume,
     },
   ]
 
   return (
     <main>
-      <Banner banner={img} title="Émelyne DELORME" />
+      <Banner />
       <ul className="ads-list">
         {sections.map(({ id, cover, title }) => (
           <AdCard key={id} id={id} cover={cover} title={title} />
