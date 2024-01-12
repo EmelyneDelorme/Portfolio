@@ -1,12 +1,11 @@
 import React, { useEffect } from "react"
 import Banner from "../../components/Banner"
 import Collapse from "../../components/Collapse"
-// import img from "../../assets/housing-banner.png";
-import "../../styles/About.scss"
+import "../../styles/Experiences.scss"
 
-function About() {
+function Experiences() {
   useEffect(() => {
-    document.title = "Kasa - A propos"
+    document.title = "Expériences - Émelyne DELORME"
   }, [])
 
   return (
@@ -50,4 +49,4 @@ function About() {
   )
 }
 
-export default About
+export default Experiences

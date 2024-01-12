@@ -1,12 +1,12 @@
 @import "colors";
 
-.ads-list {
-  width: 100%;
+.pages-list {
+  width: 80%;
   height: fit-content;
   list-style-type: none;
   background-color: $second-color;
   border-radius: 25px;
-  margin: 0;
+  margin: auto;
   padding: 0;
   display: flex;
   flex-direction: row;

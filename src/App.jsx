@@ -1,17 +1,23 @@
 import { Route, Routes } from "react-router-dom"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
-import Housing from "./pages/Housing"
-import About from "./pages/About"
+import Experiences from "./pages/Experiences"
+import Formations from "./pages/Formations"
+import Competences from "./pages/Competences"
 import NotFound from "./pages/NotFound"
+import Projets from "./pages/Projets"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/housing/:id" element={<Housing />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/expériences" element={<Experiences />} />
+        <Route path="/formations" element={<Formations />} />
+        <Route path="/compétences" element={<Competences />} />
+        <Route path="/projets" element={<Projets />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
