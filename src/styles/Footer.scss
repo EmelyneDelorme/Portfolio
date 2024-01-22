@@ -36,6 +36,7 @@ ul{
 
 @media screen and (max-width: 900px) {
   footer {
+    height: 140px;
     padding: 10px 0px;
     ul{
     flex-direction: column;
@@ -44,6 +45,5 @@ ul{
     margin: 0px;
     padding: 0px;
     }
-
   }
 }

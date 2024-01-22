@@ -36,9 +36,19 @@
 
 @media screen and (max-width: 900px) {
   .banner {
+  height: 210px;
+  .banner-img {
+  height: 210px;
+    
+  }
     .banner-title {
       font-size: x-large !important;
       padding-left: 10px;
+      .banner-title-bis{
+        width: 100%;
+        font-size: 20px;
+      }
     }
+    
   }
 }
