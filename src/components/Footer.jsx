@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "../styles/Footer.scss"
+import linkedIn from "../assets/LinkedIn.PNG"
 
 function Footer() {
   return (
@@ -21,6 +22,18 @@ function Footer() {
             aria-label="Nouvel onglet: Google Maps"
           >
             Dammarie-Lès-Lys 77190
+          </Link>
+        </li>
+        <li>
+          <Link
+            target="blank"
+            to="https://www.linkedin.com/in/emelyne-delorme-592014197/"
+          >
+            <img
+              src={linkedIn}
+              alt="Retrouvez moi sur LinkedIn"
+              className="logo"
+            />
           </Link>
         </li>
       </ul>

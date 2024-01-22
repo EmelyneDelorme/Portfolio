@@ -2,17 +2,33 @@
 
 .collapse {
   font-size: 25px;
-  .collapse-banner {
+    .collapse-banner {
     display: flex;
     flex-direction: row;
     background-color: $main-color;
     color: white;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 0px 15px;
     font-weight: 500;
-    height: 50px;
+    height: 80px;
+    font-size: large;
+    line-height: 10px;
+    width: 100%;
+    button{
+      border: none;
+      background-color: transparent;
+      color: white;
+    }
+    .collapse-head{
+      text-align: start !important;
+    }
+  }
+  a{
+    color: $third-color;
+    font-weight: 700;
+    font-size: 19px;
   }
 
   .collapse-text {
@@ -25,7 +41,14 @@
     margin: 0;
   }
 }
-
+.i{
+  
+  color: $main-color;
+  background-color: white;
+      border-radius: 30px;
+      height: 40px;
+      width: 40px;
+}
 .rotate-down {
   transition: transform 0.5s ease;
 }

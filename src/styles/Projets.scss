@@ -1,0 +1,28 @@
+@import "colors";
+
+.projects-page {
+  width: 80%;
+  height: fit-content;
+  list-style-type: none;
+  background-color: $second-color;
+  border-radius: 25px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  padding: 15px 0px;
+  .page-card{
+    margin-bottom: 0;
+    width: 100%;
+}
+.collapse{
+border: none;
+}
+}
+.project{
+width: 45%;
+}
+

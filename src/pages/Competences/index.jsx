@@ -1,42 +1,18 @@
-import Banner from "../../components/Banner"
+import "../../styles/Competences.scss"
 
 export default function Competences() {
   return (
-    <main className="container-contact-us-form">
-      <Banner />
-      <p className="h1">CONTACT</p>
-      <form className="contact-us-form">
-        <div className="form-group">
-          <label htmlFor="name">Nom</label>
-          <input
-            type="text"
-            className="form-control"
-            id="name"
-            placeholder="Nom"
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="email">Adresse e-mail</label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            placeholder="Adresse e-mail"
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">Message</label>
-          <textarea
-            className="form-control"
-            id="message"
-            rows="3"
-            placeholder="Message"
-          ></textarea>
-        </div>
-        <button type="submit" className="btn btn-primary">
-          Envoyer
-        </button>
-      </form>
+    <main className="skills">
+      <h2>Compétences</h2>
+      <iframe
+        title="Compétences"
+        width="768"
+        height="432"
+        src="https://miro.com/app/embed/uXjVN61shN4=/?pres=1&frameId=3458764575392465244&embedId=15988212625"
+        frameborder="0"
+        allow="fullscreen; clipboard-read; clipboard-write"
+        allowfullscreen
+      ></iframe>
     </main>
   )
 }

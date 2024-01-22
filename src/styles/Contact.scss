@@ -1,0 +1,47 @@
+@import "colors";
+
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: $main-color;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    width: 200px;
+    margin: auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    .label{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .helper-text{
+        font-size: 0.8rem;
+        color: $grey-color;
+        font-size: small;
+    }
+    input::placeholder, textarea::placeholder{
+        font-family: "Montserrat";
+        color: $grey-color;
+        font-size: small;
+    }
+    input, textarea{
+        padding: 0.5rem 1rem;
+        border: 1px solid $grey-color;
+        border-radius: 5px;
+    }
+}

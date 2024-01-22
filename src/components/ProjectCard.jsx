@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom"
 import "../styles/PageCard.scss"
 
-function PageCard({ page, cover, title, target }) {
+function ProjectCard({ page, cover, title, target }) {
   return (
     <li className="page-card">
-      <Link to={page}>
+      <Link to={page} target="_blank">
         <img src={cover} alt="" />
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </Link>
     </li>
   )
 }
 
-export default PageCard
+export default ProjectCard
