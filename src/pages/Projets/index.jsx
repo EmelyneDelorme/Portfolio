@@ -20,7 +20,7 @@ export default function Projets() {
         />
         <Collapse
           aria-label="Description du projet HTML CSS"
-          collapseTitle="Description"
+          collapseSubhead="Description"
           id={"collapse-1"}
         >
           <p>
@@ -50,7 +50,7 @@ export default function Projets() {
         />
         <Collapse
           aria-label="Description du projet Javascript"
-          collapseTitle="Description"
+          collapseSubhead="Description"
           id={"collapse-2"}
         >
           <p>But du projet : Rendre dynamique une page web.</p>
@@ -85,7 +85,7 @@ export default function Projets() {
         />
         <Collapse
           aria-label="Description du projet React"
-          collapseTitle="Description"
+          collapseSubhead="Description"
           id={"collapse-3"}
         >
           <p>
@@ -112,7 +112,7 @@ export default function Projets() {
         />
         <Collapse
           aria-label="Description du projet Express MongoDB"
-          collapseTitle="Description"
+          collapseSubhead="Description"
           id={"collapse-4"}
         >
           <p>But du projet : Création du backend d'un site.</p>
