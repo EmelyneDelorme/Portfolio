@@ -12,7 +12,7 @@ function Experiences() {
     <main>
       <Nav />
       <h2>Expériences</h2>
-      <section className="about-collapses">
+      <section className="xp-collapses">
         <Collapse
           collapseTitle="Développeuse web & Consultante en accessibilité numérique"
           collapseSubhead={"Alternance d'un an en 2023"}
