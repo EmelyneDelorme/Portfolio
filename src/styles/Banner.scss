@@ -4,7 +4,6 @@ header {
   width: 100%;
   height: 225px;
   border-radius: 20px;
-  position: relative;
   background-color: $main-color;
   color: white;
   .banner-title {
@@ -25,14 +24,14 @@ header {
 }
 
 @media screen and (max-width: 900px) {
-  .banner {
+  header {
   height: 210px;
     .banner-title {
       font-size: 30px !important;
-      padding-left: 10px;
       .banner-title-bis{
         width: 100%;
-        font-size: 20px !important;
+        font-size: 20px !important
+        ;
       }
     }
     

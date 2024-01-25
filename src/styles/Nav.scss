@@ -9,11 +9,14 @@ nav{
     justify-content: space-between;
     list-style: none;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 0;
     li{
         border: 3px solid $third-color;
         border-radius: 15px;
         padding: 10px;
+    margin-bottom: 10px;
+
     }
 }
 }
