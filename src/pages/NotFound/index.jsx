@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import "../../styles/NotFound.scss";
+import React, { useEffect } from "react"
+import { Link } from "react-router-dom"
+import "../../styles/NotFound.scss"
 
 function NotFound() {
   useEffect(() => {
-    document.title = "Kasa - Page inexistante";
-  }, []);
+    document.title = "Page inexistante - Émelyne DELORME"
+  }, [])
   return (
     <main className="error-page">
       <h1 className="error-title">404</h1>
@@ -16,7 +16,7 @@ function NotFound() {
         Retourner sur la page d'accueil
       </Link>
     </main>
-  );
+  )
 }
 
-export default NotFound;
+export default NotFound

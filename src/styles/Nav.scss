@@ -1,0 +1,19 @@
+@import "colors";
+
+nav{
+    color: $main-color;
+    width: 100%;
+    margin: 0;
+    ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: row;
+    padding: 0;
+    li{
+        border: 3px solid $third-color;
+        border-radius: 15px;
+        padding: 10px;
+    }
+}
+}

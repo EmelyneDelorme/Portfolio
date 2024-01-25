@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import Collapse from "../../components/Collapse"
 import "../../styles/Experiences.scss"
+import Nav from "../../components/Nav"
 
 function Experiences() {
   useEffect(() => {
@@ -9,6 +10,7 @@ function Experiences() {
 
   return (
     <main>
+      <Nav />
       <h2>Expériences</h2>
       <section className="about-collapses">
         <Collapse

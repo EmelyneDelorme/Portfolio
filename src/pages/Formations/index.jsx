@@ -1,9 +1,11 @@
 import Collapse from "../../components/Collapse"
 import { Link } from "react-router-dom"
+import Nav from "../../components/Nav"
 
 export default function Formations() {
   return (
     <main className="about-collapses">
+      <Nav />
       <h2>Formations</h2>
       <Collapse
         collapseTitle="Développeur web"

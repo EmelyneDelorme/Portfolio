@@ -1,7 +1,30 @@
 .skills{
-    iframe{
+    .skills-step{
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
-        border: none;
-        margin-top: 20px ;
+        justify-content: space-between;
+        
+    .collapse{
+        width: 40%;
+        margin: 0px 40px 20px 40px;
+        .collapse-banner{
+            width: 100%;
+            // height: 100px;
+            line-height: normal;
+        }
     }
+}
+}
+
+@media screen and (max-width: 900px) {
+.skills{
+    .skills-step{
+        justify-content: center;
+    .collapse{
+        width: 90%;
+        margin: 0px 0px 20px 0px;
+    }
+}
+}
 }

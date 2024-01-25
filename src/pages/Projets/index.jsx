@@ -5,10 +5,12 @@ import bluel from "../../assets/bluel.webp"
 import booki from "../../assets/booki.PNG"
 import grimoire from "../../assets/grimoire.webp"
 import kasa from "../../assets/kasa.PNG"
+import Nav from "../../components/Nav"
 
 export default function Projets() {
   return (
     <main className="projects-page">
+      <Nav />
       <h2>Projets</h2>
       <div className="project">
         <ProjectCard

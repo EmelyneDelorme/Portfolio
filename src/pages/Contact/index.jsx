@@ -1,8 +1,10 @@
+import Nav from "../../components/Nav"
 import "../../styles/Contact.scss"
 
 export default function Contact() {
   return (
     <main className="container-contact-us-form">
+      <Nav />
       <h2>CONTACT</h2>
       <p>
         Vous souhaitez me contacter ? Utilisez le formulaire ci-après pour
